@@ -1,0 +1,42 @@
+.containerPagination{
+    margin: 20px;
+}
+
+.buttonNumber{
+    margin: 5px 4px;
+    border: none;
+    width: 3rem;
+    height: 1.5rem;
+    border-radius: 4px;
+    background-color:  #F0E3CA;
+}
+
+.buttonNumber:hover{
+    color:#F0E3CA;
+    background-color: #A35709;
+}
+
+
+.buttonNextPrev{
+    margin: 5px 4px;
+    border: none;
+    width: 6rem;
+    height: 1.5rem;
+    border-radius: 6px;
+    background-color:  #F0E3CA;
+}
+
+.buttonNextPrev:hover{
+    color:#F0E3CA;
+    background-color: #A35709;
+}
+
+.buttonNumberSelect{
+    margin: 5px 4px;
+    border: none;
+    width: 3rem;
+    height: 1.5rem;
+    border-radius: 4px;
+    color:#F0E3CA;
+    background-color: #A35709;
+}

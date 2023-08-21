@@ -1,0 +1,42 @@
+ .containerLanding{
+    background-image: url('https://c.wallhere.com/photos/5c/52/food_pizza_tomatoes_vegetables-1939205.jpg!d');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.664);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(240, 227, 202, 0.8);
+    align-items: center;
+    height: 17rem;
+    width: 30rem;
+    border-radius: 10px;
+ }
+
+ .title{
+    font-size: 60px;
+ }
+ 
+ .button{
+    font-size: 20px;
+    height: 50px;
+    width: 10rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #FF8303;
+    color: #F0E3CA;
+ }
+
+ .button:hover{
+    background-color: #F0E3CA;
+    color:#FF8303 ;
+ }

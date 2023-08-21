@@ -1,0 +1,30 @@
+.footer{
+    color: #F0E3CA;
+    background-color: #1B1A17;
+    bottom:0;
+    left:0;
+    width:100%; 
+    margin-top: auto;
+}
+
+.group{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.hr{
+    border: none;
+    border-left:1px solid hsla(200, 10%, 50%,100);
+    width:1px;   
+    margin: 10px;
+}
+
+.link{
+    text-decoration: none;
+    color: inherit;
+}

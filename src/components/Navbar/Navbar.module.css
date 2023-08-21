@@ -1,0 +1,21 @@
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background-color: #ff8103;
+    width: 100%;
+}
+
+.button{
+    text-align: center;
+    padding: 16px 16px;
+    border:none;
+    background-color: #FF8303;
+    cursor: pointer;
+    color: #F0E3CA; 
+    font-size: 16px;
+}
+.button:hover{
+    color: #FF8303;
+    background-color: #F0E3CA;
+}

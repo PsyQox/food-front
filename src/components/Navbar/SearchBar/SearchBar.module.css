@@ -1,0 +1,22 @@
+
+.searchbar{
+    width: 250px;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 10px;
+    margin-left: 6px;
+}
+
+.button{
+    text-align: center;
+    padding: 10px 10px;
+    margin: 6px 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: #F0E3CA;
+    cursor: pointer;
+}
+.button:hover{
+    color: #F0E3CA;
+    background-color: #A35709;
+}
