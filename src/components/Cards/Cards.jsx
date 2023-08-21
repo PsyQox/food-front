@@ -34,12 +34,3 @@ const Cards = (props)=>{
 
 export default Cards
 
-// const regexUUID = RegExp(/[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}/)
-
-//     if (regexUUID.test(id)) {
-//         const recipe = await Tbl_recipe.findOne({where:{id:id}})
-//         return recipe
-//     }else{
-//         const recipe = await axios.get(`https://api.spoonacular.com/recipes/${id}/information?apiKey=${API_KEY}`)
-//         return recipe.data  
-//     }
