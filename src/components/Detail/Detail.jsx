@@ -11,7 +11,7 @@ const Detail =()=>{
 
     useEffect( async ()=>{
         try {
-            const response = await axios.get(`http://localhost:3001/recipes/${id}`) 
+            const response = await axios.get(`/recipes/${id}`) 
             setDetail(response.data)
         } catch (error) {
             if (error.response) {

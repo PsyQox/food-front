@@ -54,7 +54,7 @@ const Form = ()=>{
         event.preventDefault()
         if(Object.keys(errors) <= 0){
             try {
-                const response = await axios.post(`http://localhost:3001/recipes/`,form)
+                const response = await axios.post(`/recipes/`,form)
                 if (!response.data[1]) {
                     alert("Cannot create duplicate records")
                 }else{
