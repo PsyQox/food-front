@@ -20,7 +20,7 @@ const Form = ()=>{
     useEffect( async ()=>{
         try {
             if (diets.length <= 0) {
-                const response = await axios(`http://localhost:3001/diets/`)
+                const response = await axios(`/diets/`)
                 setDiets(response.data)    
             }
         } catch (error) {

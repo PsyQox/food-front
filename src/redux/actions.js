@@ -2,7 +2,7 @@ import { RECIPES_GET,ORDER_RECIPES,FILTER_RECIPES,DIETS_GET,FILTER_DB_API,GET_AL
 import axios from "axios";
 
 export const getRecipes = (name)=>{
-    const endpoint = 'http://localhost:3001/recipes/'
+    const endpoint = '/recipes/'
     if (!name) {
         return async (dispatch)=>{
             const {data} = await axios.get(`${endpoint}`)
@@ -23,7 +23,7 @@ export const getRecipes = (name)=>{
 }
 
 export const getDiets =()=>{
-    const endpoint = 'http://localhost:3001/diets/' 
+    const endpoint = '/diets/' 
     return async (dispatch)=>{
         const {data} = await axios.get(`${endpoint}`)
         return dispatch({
@@ -54,7 +54,7 @@ export const filterBdPi = (filterType)=>{
 }
 
 export const getAllRecipes = ()=>{
-    const endpoint = 'http://localhost:3001/recipes/'
+    const endpoint = '/recipes/'
     return async (dispatch)=>{
         const {data} = await axios.get(`${endpoint}`)
         return dispatch({
