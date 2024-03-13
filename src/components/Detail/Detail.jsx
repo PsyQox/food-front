@@ -24,7 +24,7 @@ const Detail =()=>{
 
     if (regexUUID.test(id)) {
         return(<div className={style.containerAll}> 
-            <h2>{detail.title}</h2>
+            <h1 className={style.title}>{detail.title}</h1>
             <div className={style.containerDetail}>
                 <div>
                     <img className={style.img} src={detail.image} alt="" ></img>
@@ -46,7 +46,7 @@ const Detail =()=>{
     }else{
         return(
             <div className={style.containerAll}>
-                <h2>{detail.title}</h2>
+                <h1 className={style.title}>{detail.title}</h1>
                 <div className={style.containerDetail}>
                     <div>
                         <img className={style.img} src={detail.image} alt=""></img>
