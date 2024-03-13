@@ -8,7 +8,7 @@ import { Provider } from 'react-redux';
 import  store  from './redux/store';
 import axios from 'axios';
 
-axios.defaults.baseURL = 'https://food-back-production.up.railway.app'
+axios.defaults.baseURL = 'https://food-back-dev-jcar.3.us-1.fl0.io'
 
 ReactDOM.render(
   <Provider store={store}>
